@@ -1,0 +1,45 @@
+/* frontend/src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, #4a90e2, #2c3e50); /* Radial gradient background */
+  color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  padding: 4rem 3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  background-color: rgba(50, 50, 50, 0.8); /* Darker, more opaque navbar */
+  padding: 1rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: rgba(50, 50, 50, 0.9); /* Darker on hover */
+}
+
+.navbar a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4a90e2;
+  transform: scale(1.08) translateY(-2px); /* Slight lift on hover */
+}
