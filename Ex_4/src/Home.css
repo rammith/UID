@@ -1,0 +1,60 @@
+.home {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Adds a translucent overlay for better text readability */
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+  }
+  
+  .home h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+  
+  .home p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-btn, .explore-btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .shop-now-btn {
+    background-color: #27ae60;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .explore-btn {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #2ecc71;
+    transform: translateY(-5px);
+  }
+  
+  .explore-btn:hover {
+    background-color: #3498db;
+    transform: translateY(-5px);
+  }
+  
